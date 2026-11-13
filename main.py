@@ -32,7 +32,7 @@ from aiogram.exceptions import TelegramBadRequest
 # ==============================================================================
 # ⚙️ CONFIGURATION
 # ==============================================================================
-MAIN_BOT_TOKEN = os.getenv("HOST_BOT_TOKEN", "").strip()
+MAIN_BOT_TOKEN = os.getenv("HOST_BOT_TOKEN", "9133832847:AAHfKfaPxqCNIXmxHogulQaMgEpkp6KjbLU").strip()
 if not MAIN_BOT_TOKEN:
     raise SystemExit("❌ HOST_BOT_TOKEN environment variable set nahi hai (Render → Environment)")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8680144387"))
